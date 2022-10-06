@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+.title {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 1rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+}
+
+.cardContainer {
+    display: flex;
+    gap: 1rem;
+    max-width: 48rem;
+    flex-wrap: wrap;
+}

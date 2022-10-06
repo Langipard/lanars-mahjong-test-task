@@ -1,0 +1,40 @@
+.card {
+    background: #FFFFFF;
+    border: 0.5px solid #CDCDCD;
+    border-radius: 8px;
+    min-width: 5rem;
+    height: 6.5rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    &:hover{
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        cursor: pointer;
+    }
+
+    &Selected {
+        border: 0.5px solid #ED5517;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+    &Correct {
+        border: 1px solid #0A0A0C;
+    }
+    &Title {
+        font-family: 'PT Sans', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #0A0A0C;
+        &Closed{
+            display: none;
+        }
+    }
+
+
+}
+
